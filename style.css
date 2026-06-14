@@ -81,7 +81,7 @@ nav a:hover{
     height:100vh;
     background:
     linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.35)),
-    url("/assets/img/baniere.png");
+    url("./assets/img/baniere.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -290,7 +290,7 @@ nav a:hover{
 .serment{
     padding:540px 10%;
     text-align:center;
-    background:url("/assets/img/serment.png");
+    background:url("./assets/img/serment.png");
     background-size:cover;
     background-position:center;
 }
