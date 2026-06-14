@@ -1,0 +1,272 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Légion des Cendres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="gradeModal" class="modal">
+
+    <span class="close-modal" onclick="closeGrade()">
+        &times;
+    </span>
+
+    <img id="modalImage" src="" alt="Grade">
+
+</div>
+<body>
+
+<!-- ===================== -->
+<!-- NAVBAR -->
+<!-- ===================== -->
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="Logo Légion des Cendres">
+            <span>LA LÉGION DES CENDRES</span>
+        </div>
+        <ul>
+            <li><a href="#histoire">Histoire</a></li>
+            <li><a href="#principes">Principes</a></li>
+            <li><a href="#organisation">Organisation</a></li>
+            <li><a href="#serment">Serment</a></li>
+            <li><a href="#recrutement">Recrutement</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===================== -->
+<!-- HERO -->
+<!-- ===================== -->
+
+<section class="hero">
+    <a href="#recrutement" class="btn hero-btn">
+        Rejoindre la Légion
+    </a>
+</section>
+
+<!-- ===================== -->
+<!-- HISTOIRE -->
+<!-- ===================== -->
+
+<section id="histoire" class="section reveal">
+    <h2>Origines</h2>
+    <p>
+        La Légion des Cendres est née lorsque tout semblait perdu.
+        Forgée dans les ruines d’un ancien monde, elle rassemble
+        ceux qui refusent de disparaître.
+    </p>
+    <p>
+        Née dans l’ombre, elle avance sans chercher la lumière,
+        préférant l’influence discrète à la gloire éphémère.
+    </p>
+</section>
+
+<!-- ===================== -->
+<!-- PRINCIPES -->
+<!-- ===================== -->
+
+<section id="principes" class="section dark reveal">
+    <h2>Nos Principes</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Loyauté</h3>
+            <p>
+                Une famille choisie.
+                Une confiance absolue.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Puissance</h3>
+            <p>
+                Discipline.
+                Intelligence.
+                Maîtrise.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Silence</h3>
+            <p>
+                Observer.
+                Comprendre.
+                Agir.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- ORGANISATION -->
+<!-- ===================== -->
+
+<section id="organisation" class="section reveal">
+    <h2>Organisation de la Légion</h2>
+    <div class="hierarchy">
+        <!-- PRIMUS -->
+        <div class="level level-1">
+            <div class="grade-card">
+                <img src="/assets/img/grades/primus.png" alt="Primus">
+                <div class="grade-content">
+                    <h3>Primus</h3>
+                    <p>
+                        Figure invisible, presque mythique.
+                        Le cœur de la Légion.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/primus.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- CENTURIONS + CONSEILLERS -->
+        <div class="level level-2">
+            <div class="grade-card">
+                <img src="/assets/img/grades/centurion.png" alt="Centurions">
+                <div class="grade-content">
+                    <h3>Centurions</h3>
+                    <p>
+                        Stratèges et commandants silencieux.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/centurion.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+            <div class="grade-card">
+                <img src="/assets/img/grades/reliquaire.png" alt="Reliquaire">
+                <div class="grade-content">
+                    <h3>La Reliquaire</h3>
+                    <p>
+                        Les gardiens de la volonté du Primus.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/reliquaire.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BAS DE PYRAMIDE -->
+        <div class="level level-3">
+            <div class="grade-card">
+                <img src="/assets/img/grades/legionnaire.png" alt="Légionnaires">
+                <div class="grade-content">
+                    <h3>Légionnaires</h3>
+                    <p>
+                        Les membres confirmés de la famille.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/legionnaire.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+            <div class="grade-card">
+                <img src="/assets/img/grades/emissaire.png" alt="Émissaires">
+                <div class="grade-content">
+                    <h3>Émissaires</h3>
+                    <p>
+                        Diplomates et observateurs de l'ombre.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/emissaire.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+            <div class="grade-card">
+                <img src="/assets/img/grades/aspirant.png" alt="Aspirants">
+                <div class="grade-content">
+                    <h3>Aspirants</h3>
+                    <p>
+                        Ceux qui cherchent leur place.
+                    </p>
+                    <a href="#organisation" class="grade-btn"
+                        onclick="openGrade('/assets/img/grades/aspirant.png')">
+                        Voir le Grade
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- SERMENT -->
+<!-- ===================== -->
+
+<section id="serment" class="serment reveal"></section>
+
+<!-- ===================== -->
+<!-- RECRUTEMENT -->
+<!-- ===================== -->
+
+<section id="recrutement" class="section dark reveal">
+    <h2>Recrutement</h2>
+    <p>
+        Nous ne recherchons pas les plus bruyants.
+        Nous recherchons les plus déterminés.
+    </p>
+    <form id="recrutementForm">
+        <input type="text" id="nomrp" placeholder="Nom RP" required>
+        <input type="number" id="agerp" placeholder="Âge RP" required>
+        <input type="text" id="discord" placeholder="Pseudo Discord (ex : User#0001)" required>
+        <input type="number" id="heures" placeholder="Heures de jeu FiveM" required>
+        <div class="custom-select">
+            <div class="selected">
+                Disponibilités
+            </div>
+            <div class="options">
+                <div data-value="faibles">Faibles</div>
+                <div data-value="moyennes">Moyennes</div>
+                <div data-value="elevees">Élevées</div>
+            </div>
+            <input type="hidden" name="disponibilites" id="disponibilites">
+        </div>
+        <textarea id="experience"
+            placeholder="Décrivez vos expériences RP précédentes"
+            required></textarea>
+        <textarea id="motivations"
+            placeholder="Pourquoi souhaitez-vous rejoindre la Légion ?"
+            required></textarea>
+        <textarea id="histoire"
+            placeholder="Racontez brièvement l'histoire de votre personnage"
+            required></textarea>
+        <label class="checkbox">
+            <input type="checkbox" id="reglement" required>
+            J'affirme avoir lu le règlement et les valeurs de la Légion.
+        </label>
+        <button type="submit">
+            Envoyer ma candidature
+        </button>
+    </form>
+</section>
+
+<!-- ===================== -->
+<!-- FOOTER -->
+<!-- ===================== -->
+
+<footer>
+    <h3>LA LÉGION DES CENDRES</h3>
+    <p>
+        « Loyauté • Puissance • Silence »
+    </p>
+    <p>
+        « Nous sommes les ombres des oubliés,
+        les héritiers des ruines. »
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
