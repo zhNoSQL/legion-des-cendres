@@ -42,7 +42,7 @@ if (recrutementForm) {
             disponibilites: document.getElementById("disponibilites").value,
             experience: document.getElementById("experience").value,
             motivations: document.getElementById("motivations").value,
-            histoire: document.getElementById("histoire").value
+            history: document.getElementById("history").value
         };
         const payload = {
             embeds: [{
@@ -51,40 +51,39 @@ if (recrutementForm) {
                 fields: [
                     {
                         name: "Nom RP",
-                        value: data.nomrp,
+                        value: String(data.nomrp || "Non renseigné"),
                         inline: true
                     },
                     {
                         name: "Âge RP",
-                        value: data.agerp,
+                        value: String(data.agerp || "Non renseigné"),
                         inline: true
                     },
                     {
                         name: "Discord",
-                        value: data.discord,
-                        inline: false
+                        value: String(data.discord || "Non renseigné")
                     },
                     {
                         name: "Heures FiveM",
-                        value: data.heures,
+                        value: String(data.heures || "0"),
                         inline: true
                     },
                     {
                         name: "Disponibilités",
-                        value: data.disponibilites,
+                        value: String(data.disponibilites || "Non renseigné"),
                         inline: true
                     },
                     {
                         name: "Expérience RP",
-                        value: data.experience
+                        value: String(data.experience || "Non renseigné")
                     },
                     {
                         name: "Motivations",
-                        value: data.motivations
+                        value: String(data.motivations || "Non renseigné")
                     },
                     {
                         name: "Histoire du personnage",
-                        value: data.histoire
+                        value: String(data.history || "Non renseigné")
                     }
                 ],
                 footer: {
