@@ -28,7 +28,7 @@ modal.addEventListener("click", function(e){
     }
 });
 
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1515762269609267323/uX4l_zQY3157f9xumKLHw-uN7xQRoRv9Y_6WOPfgDHykZljJBRmKqI2sE5FGVlOmFYt2";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1515807250717872329/CyHWwu1VdbCPbz_QwURGyxfxNqr1-suAC8z3AYVQH8Q879gh7nD9Lgr8KAvLQbX-UWte";
 const recrutementForm = document.getElementById("recrutementForm");
 
 if (recrutementForm) {
