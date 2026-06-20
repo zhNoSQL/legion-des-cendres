@@ -28,7 +28,6 @@ modal.addEventListener("click", function(e){
     }
 });
 
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1515993219400466442/ewvicPdKmp-pkqeHIXdiJJAdvLZlsiJu5RL1e5IiKEU9qpBEybVMRXUDYxnr-_z1F-Jg";
 const recrutementForm = document.getElementById("recrutementForm");
 
 if (recrutementForm) {
@@ -93,13 +92,16 @@ if (recrutementForm) {
             }]
         };
         try {
-            const response = await fetch(WEBHOOK_URL, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(payload)
-            });
+            const response = await fetch(
+                "https://legion-des-cendres.elyas-albaros.workers.dev",
+                {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(payload)
+                }
+            );
             if(response.ok){
                 alert("Votre candidature a été envoyée.");
                 recrutementForm.reset();
