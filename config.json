@@ -5,13 +5,13 @@
       "nom": "Julien Morel",
       "grade": "Centurion",
       "image": "assets/img/equipe/julien.png",
-      "description": "Remplace ce texte par l'histoire RP / la description du personnage de ce membre. Tu peux écrire plusieurs paragraphes, les retours à la ligne seront conservés sur la fiche."
+      "description": "Avant de porter l'écarlate de la Légion, Julien Morel n'était qu'un nom parmi d'autres dans les rangs inférieurs de la ville — un homme discret, méthodique, qui observait plus qu'il ne parlait. Issu d'une famille modeste, il a appris très jeune que le silence protège mieux que la force, et que la loyauté ne se proclame pas : elle se prouve.\n\nSon ascension n'a rien d'un coup d'éclat. Pendant des années, Morel a exécuté chaque mission sans jamais chercher la lumière, gagnant la confiance des Anciens un service à la fois. Quand le titre de Centurion s'est libéré, personne n'a été surpris qu'il lui revienne : il n'avait jamais cherché le pouvoir, et c'est précisément ce qui l'a rendu digne de le porter.\n\nAujourd'hui, Julien commande avec une rigueur presque militaire. Il forme les nouvelles recrues, supervise les opérations sur le terrain et tranche les différends internes avec une froideur calculée. Ceux qui le suivent savent qu'il ne demandera jamais rien qu'il ne soit prêt à faire lui-même. Ceux qui le trahissent découvrent, eux, pourquoi on le surnomme déjà « l'Ombre de la Légion ».\n\nFidèle au serment — Loyauté, Puissance, Silence — Julien Morel incarne ce que la Légion des Cendres attend de ses officiers : une autorité qui ne s'impose pas par la peur, mais par le respect gagné dans l'ombre."
     },
     {
-      "id": "miguel-dupont",
-      "nom": "Miguel Dupont",
-      "grade": "Primus",
-      "image": "assets/img/equipe/miguel.png",
+      "id": "exemple2",
+      "nom": "EXEMPLE 2 - À modifier",
+      "grade": "Centurion",
+      "image": "assets/img/equipe/exemple2.png",
       "description": "Deuxième exemple de fiche. Duplique ce bloc pour chaque nouveau membre, en gardant un \"id\" unique (sans espace ni accent, ex: jean-dupont)."
     }
   ]
