@@ -22,7 +22,6 @@
 <!-- ===================== -->
 <!-- NAVBAR -->
 <!-- ===================== -->
-
 <header>
     <nav>
         <div class="logo">
@@ -33,6 +32,12 @@
             <li><a href="#histoire">Histoire</a></li>
             <li><a href="#principes">Principes</a></li>
             <li><a href="#organisation">Organisation</a></li>
+            <li class="dropdown">
+                <a href="#">Équipe</a>
+                <ul id="equipeDropdown" class="dropdown-menu">
+                    <li class="dropdown-empty">Chargement...</li>
+                </ul>
+            </li>
             <li><a href="#serment">Serment</a></li>
             <li><a href="#recrutement">Recrutement</a></li>
         </ul>
@@ -42,7 +47,6 @@
 <!-- ===================== -->
 <!-- HERO -->
 <!-- ===================== -->
-
 <section class="hero">
     <a href="#recrutement" class="btn hero-btn">
         Rejoindre la Légion
@@ -52,7 +56,6 @@
 <!-- ===================== -->
 <!-- HISTOIRE -->
 <!-- ===================== -->
-
 <section id="histoire" class="section reveal">
     <h2>Origines</h2>
     <p>
@@ -69,7 +72,6 @@
 <!-- ===================== -->
 <!-- PRINCIPES -->
 <!-- ===================== -->
-
 <section id="principes" class="section dark reveal">
     <h2>Nos Principes</h2>
     <div class="cards">
@@ -103,7 +105,6 @@
 <!-- ===================== -->
 <!-- ORGANISATION -->
 <!-- ===================== -->
-
 <section id="organisation" class="section reveal">
     <h2>Organisation de la Légion</h2>
     <div class="hierarchy">
@@ -124,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <!-- CENTURIONS + CONSEILLERS -->
+        <!-- CENTURIONS + RELIQUAIRE -->
         <div class="level level-2">
             <div class="grade-card">
                 <img src="./assets/img/grades/centurion.png" alt="Centurions">
@@ -202,13 +203,11 @@
 <!-- ===================== -->
 <!-- SERMENT -->
 <!-- ===================== -->
-
 <section id="serment" class="serment reveal"></section>
 
 <!-- ===================== -->
 <!-- RECRUTEMENT -->
 <!-- ===================== -->
-
 <section id="recrutement" class="section dark reveal">
     <h2>Recrutement</h2>
     <p>
@@ -253,7 +252,6 @@
 <!-- ===================== -->
 <!-- FOOTER -->
 <!-- ===================== -->
-
 <footer>
     <h3>LA LÉGION DES CENDRES</h3>
     <p>
@@ -266,6 +264,7 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="equipe.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,18 @@
+{
+  "membres": [
+    {
+      "id": "julien-morel",
+      "nom": "Julien Morel",
+      "grade": "Centurion",
+      "image": "assets/img/equipe/julien.png",
+      "description": "Remplace ce texte par l'histoire RP / la description du personnage de ce membre. Tu peux écrire plusieurs paragraphes, les retours à la ligne seront conservés sur la fiche."
+    },
+    {
+      "id": "miguel-dupont",
+      "nom": "Miguel Dupont",
+      "grade": "Primus",
+      "image": "assets/img/equipe/miguel.png",
+      "description": "Deuxième exemple de fiche. Duplique ce bloc pour chaque nouveau membre, en gardant un \"id\" unique (sans espace ni accent, ex: jean-dupont)."
+    }
+  ]
+}
