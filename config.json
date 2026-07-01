@@ -8,8 +8,8 @@
       "grade": "Primus",
       "image": "assets/img/equipe/miguel.png",
       "citation": "Le silence protège mieux que la force.",
-      "personnalite": "Discret, méthodique et calculateur. Julien observe avant d'agir et ne parle que lorsque c'est nécessaire. Sa loyauté envers la Légion est absolue, mais il se montre froid et implacable envers ceux qui la trahissent. Il dirige par l'exemple, jamais par la peur.",
-      "description": "Avant de porter l'écarlate de la Légion, Julien Morel n'était qu'un nom parmi d'autres dans les rangs inférieurs de la ville — un homme discret, méthodique, qui observait plus qu'il ne parlait. Issu d'une famille modeste, il a appris très jeune que le silence protège mieux que la force, et que la loyauté ne se proclame pas : elle se prouve.\n\nSon ascension n'a rien d'un coup d'éclat. Pendant des années, Morel a exécuté chaque mission sans jamais chercher la lumière, gagnant la confiance des Anciens un service à la fois. Quand le titre de Centurion s'est libéré, personne n'a été surpris qu'il lui revienne : il n'avait jamais cherché le pouvoir, et c'est précisément ce qui l'a rendu digne de le porter.\n\nAujourd'hui, Julien commande avec une rigueur presque militaire. Il forme les nouvelles recrues, supervise les opérations sur le terrain et tranche les différends internes avec une froideur calculée. Ceux qui le suivent savent qu'il ne demandera jamais rien qu'il ne soit prêt à faire lui-même. Ceux qui le trahissent découvrent, eux, pourquoi on le surnomme déjà « l'Ombre de la Légion ».\n\nFidèle au serment \"Loyauté, Puissance, Silence\" Julien Morel incarne ce que la Légion des Cendres attend de ses officiers : une autorité qui ne s'impose pas par la peur, mais par le respect gagné dans l'ombre."
+      "personnalite": "Calme, impénétrable et d’une lucidité presque inquiétante. Miguel ne s’emporte jamais : il calcule, observe, puis frappe là où personne ne l’attend. Son autorité est naturelle, forgée par l’expérience et la discipline. Pour la Légion, il est un pilier. Pour ses ennemis, un spectre.",
+      "description": "Miguel Hermao n’a pas conquis le titre de Primus par la brutalité ou la soif de pouvoir. Il l’a gagné par une constance rare, une maîtrise de soi absolue et une vision stratégique qui dépasse celle des officiers ordinaires. Né dans un quartier où la parole était souvent plus dangereuse que les armes, Miguel a très tôt compris que le silence n’est pas une faiblesse : c’est un bouclier.\n\nAvant la Légion, il était déjà un homme respecté — pas pour ses exploits, mais pour sa capacité à résoudre des conflits sans jamais hausser la voix. Ceux qui l’ont connu avant son ascension parlent d’un homme qui savait écouter, analyser, puis agir avec une précision chirurgicale. Lorsqu’il a rejoint la Légion des Cendres, les Anciens ont immédiatement vu en lui un potentiel rare : celui d’un leader qui n’a pas besoin de s’imposer pour être suivi.\n\nSon ascension fut lente, méthodique, presque silencieuse. Chaque mission accomplie, chaque décision prise, chaque recrue formée renforçait son influence. Quand l’ancien Primus a disparu dans les flammes d’une opération qui a marqué la Légion, un nom s’est imposé sans débat : Miguel Hermao.\n\nAujourd’hui, Miguel dirige la Légion avec une autorité tranquille. Il supervise les opérations majeures, arbitre les conflits internes et veille à ce que chaque officier incarne le serment sacré : \"Loyauté, Puissance, Silence\". Sous son commandement, la Légion n’est pas seulement une organisation : c’est une force disciplinée, une ombre qui s’étend sur la ville.\n\nPour ses soldats, Miguel est un guide. Pour ses ennemis, il est l’homme qu’on ne voit jamais venir. Pour la Légion, il est le Primus — celui qui porte les Cendres et les élève."
     },
     {
       "id": "julien-morel",
@@ -45,15 +45,15 @@
       "description": "Né d'un père américain et d'une mère française, Elijah Torretto grandit entre deux cultures. Très tôt, il évolue dans un environnement où l'argent, les relations et l'influence ouvrent bien plus de portes que les diplômes ou les discours. Sans y être directement mêlé, il observe dès son adolescence des individus gravitant autour de réseaux d'affaires aussi prospères qu'opaques — un monde qui façonne durablement sa vision des rapports de force.\n\nÀ la suite d'un événement marquant qui bouleverse son entourage, Elijah comprend qu'il devra construire son propre avenir, seul. Il se tourne alors vers l'immobilier, un secteur où son sens des affaires et son aisance relationnelle lui permettent de bâtir peu à peu un réseau solide auprès d'entrepreneurs, d'investisseurs et de chefs d'entreprise.\n\nC'est par ce réseau, et par la discrétion avec laquelle il l'a construit, qu'Elijah attire l'attention de la Légion des Cendres. Son profil détonne : ni homme de main, ni stratège de l'ombre au sens classique, mais un négociateur patient capable d'ouvrir des portes que la force seule ne pourrait forcer. Au sein de la Légion, il incarne une autre forme de puissance — celle qui se construit dans les salons feutrés plutôt que dans la rue."
     },
     {
-      "id": "exemple3",
-      "nom": "EXEMPLE 3 - À modifier",
+      "id": "exemple1",
+      "nom": "EXEMPLE 1 - À modifier",
       "age": 0,
       "origine": "",
-      "grade": "Centurion",
-      "image": "assets/img/equipe/exemple3.png",
+      "grade": "Lieutenant",
+      "image": "assets/img/equipe/exemple1.png",
       "citation": "",
       "personnalite": "",
-      "description": "Deuxième exemple de fiche. Duplique ce bloc pour chaque nouveau membre, en gardant un \"id\" unique (sans espace ni accent, ex: jean-dupont)."
+      "description": "Premier exemple de fiche. Duplique ce bloc pour chaque nouveau membre, en gardant un \"id\" unique (sans espace ni accent, ex: jean-dupont)."
     }
   ]
 }
