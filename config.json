@@ -1,17 +1,58 @@
 {
   "membres": [
     {
-      "id": "julien-morel",
-      "nom": "Julien Morel",
-      "grade": "Centurion",
-      "image": "assets/img/equipe/julien.png",
-      "description": "Avant de porter l'écarlate de la Légion, Julien Morel n'était qu'un nom parmi d'autres dans les rangs inférieurs de la ville — un homme discret, méthodique, qui observait plus qu'il ne parlait. Issu d'une famille modeste, il a appris très jeune que le silence protège mieux que la force, et que la loyauté ne se proclame pas : elle se prouve.\n\nSon ascension n'a rien d'un coup d'éclat. Pendant des années, Morel a exécuté chaque mission sans jamais chercher la lumière, gagnant la confiance des Anciens un service à la fois. Quand le titre de Centurion s'est libéré, personne n'a été surpris qu'il lui revienne : il n'avait jamais cherché le pouvoir, et c'est précisément ce qui l'a rendu digne de le porter.\n\nAujourd'hui, Julien commande avec une rigueur presque militaire. Il forme les nouvelles recrues, supervise les opérations sur le terrain et tranche les différends internes avec une froideur calculée. Ceux qui le suivent savent qu'il ne demandera jamais rien qu'il ne soit prêt à faire lui-même. Ceux qui le trahissent découvrent, eux, pourquoi on le surnomme déjà « l'Ombre de la Légion ».\n\nFidèle au serment — Loyauté, Puissance, Silence — Julien Morel incarne ce que la Légion des Cendres attend de ses officiers : une autorité qui ne s'impose pas par la peur, mais par le respect gagné dans l'ombre."
+      "id": "miguel-hermao",
+      "nom": "Miguel Hermao",
+      "age": 35,
+      "origine": "Français",
+      "grade": "Primus",
+      "image": "assets/img/equipe/miguel.png",
+      "citation": "Le silence protège mieux que la force.",
+      "personnalite": "Discret, méthodique et calculateur. Julien observe avant d'agir et ne parle que lorsque c'est nécessaire. Sa loyauté envers la Légion est absolue, mais il se montre froid et implacable envers ceux qui la trahissent. Il dirige par l'exemple, jamais par la peur.",
+      "description": "Avant de porter l'écarlate de la Légion, Julien Morel n'était qu'un nom parmi d'autres dans les rangs inférieurs de la ville — un homme discret, méthodique, qui observait plus qu'il ne parlait. Issu d'une famille modeste, il a appris très jeune que le silence protège mieux que la force, et que la loyauté ne se proclame pas : elle se prouve.\n\nSon ascension n'a rien d'un coup d'éclat. Pendant des années, Morel a exécuté chaque mission sans jamais chercher la lumière, gagnant la confiance des Anciens un service à la fois. Quand le titre de Centurion s'est libéré, personne n'a été surpris qu'il lui revienne : il n'avait jamais cherché le pouvoir, et c'est précisément ce qui l'a rendu digne de le porter.\n\nAujourd'hui, Julien commande avec une rigueur presque militaire. Il forme les nouvelles recrues, supervise les opérations sur le terrain et tranche les différends internes avec une froideur calculée. Ceux qui le suivent savent qu'il ne demandera jamais rien qu'il ne soit prêt à faire lui-même. Ceux qui le trahissent découvrent, eux, pourquoi on le surnomme déjà « l'Ombre de la Légion ».\n\nFidèle au serment \"Loyauté, Puissance, Silence\" Julien Morel incarne ce que la Légion des Cendres attend de ses officiers : une autorité qui ne s'impose pas par la peur, mais par le respect gagné dans l'ombre."
     },
     {
-      "id": "exemple2",
-      "nom": "EXEMPLE 2 - À modifier",
+      "id": "julien-morel",
+      "nom": "Julien Morel",
+      "age": 33,
+      "origine": "Français",
       "grade": "Centurion",
-      "image": "assets/img/equipe/exemple2.png",
+      "image": "assets/img/equipe/julien.png",
+      "citation": "Le silence protège mieux que la force.",
+      "personnalite": "Discret, méthodique et calculateur. Julien observe avant d'agir et ne parle que lorsque c'est nécessaire. Sa loyauté envers la Légion est absolue, mais il se montre froid et implacable envers ceux qui la trahissent. Il dirige par l'exemple, jamais par la peur.",
+      "description": "Avant de porter l'écarlate de la Légion, Julien Morel n'était qu'un nom parmi d'autres dans les rangs inférieurs de la ville — un homme discret, méthodique, qui observait plus qu'il ne parlait. Issu d'une famille modeste, il a appris très jeune que le silence protège mieux que la force, et que la loyauté ne se proclame pas : elle se prouve.\n\nSon ascension n'a rien d'un coup d'éclat. Pendant des années, Morel a exécuté chaque mission sans jamais chercher la lumière, gagnant la confiance des Anciens un service à la fois. Quand le titre de Centurion s'est libéré, personne n'a été surpris qu'il lui revienne : il n'avait jamais cherché le pouvoir, et c'est précisément ce qui l'a rendu digne de le porter.\n\nAujourd'hui, Julien commande avec une rigueur presque militaire. Il forme les nouvelles recrues, supervise les opérations sur le terrain et tranche les différends internes avec une froideur calculée. Ceux qui le suivent savent qu'il ne demandera jamais rien qu'il ne soit prêt à faire lui-même. Ceux qui le trahissent découvrent, eux, pourquoi on le surnomme déjà « l'Ombre de la Légion ».\n\nFidèle au serment \"Loyauté, Puissance, Silence\" Julien Morel incarne ce que la Légion des Cendres attend de ses officiers : une autorité qui ne s'impose pas par la peur, mais par le respect gagné dans l'ombre."
+    },
+    {
+      "id": "clemence-delorme",
+      "nom": "Clémence Delorme",
+      "age": 31,
+      "origine": "Française",
+      "grade": "Reliquaire",
+      "image": "assets/img/equipe/clemence.png",
+      "citation": "L'argent circule. La mémoire demeure.",
+      "personnalite": "Clémence n'est pas une femme que l'on impressionne facilement. Dotée d'un caractère bien trempé, elle assume ses convictions et n'hésite jamais à les défendre, même face à des personnalités plus influentes qu'elle. Franche, exigeante et parfois piquante dans ses remarques, elle préfère une vérité difficile à entendre qu'un mensonge réconfortant.\n\nSon autorité ne repose ni sur la peur ni sur la violence, mais sur la confiance qu'elle inspire. Lorsqu'elle donne sa parole, elle la tient. Lorsqu'on lui confie une responsabilité, elle l'assume jusqu'au bout. Cette fiabilité lui a valu le respect de ceux qui travaillent à ses côtés, même si son tempérament peut parfois provoquer des tensions.\n\nDerrière cette carapace se cache une femme profondément loyale. Elle protège les siens avec la même rigueur qu'elle protège les intérêts de la Légion. Elle accorde difficilement sa confiance, mais lorsqu'une personne l'obtient, elle peut compter sur son soutien sans réserve.\n\nOrganisée, méthodique et dotée d'un excellent sang-froid, Clémence ne laisse que rarement ses émotions guider ses décisions. Elle analyse, anticipe et agit avec pragmatisme, convaincue que les actes ont toujours plus de valeur que les paroles.\n\nPour elle, le respect se mérite, la loyauté ne s'achète pas et la confiance est le bien le plus précieux que l'on puisse accorder.",
+      "description": "À trente-et-un ans, Clémence est déjà considérée comme l'une des figures influentes de la Légion des Cendres. Pourtant, rien ne la prédestinait à rejoindre une organisation aussi ancienne que secrète.\n\nIssue d'une famille de restaurateurs d'œuvres d'art français, elle a grandi au milieu des objets anciens, des archives et des récits oubliés. Très tôt, elle apprend qu'un objet ne vaut pas par son prix, mais par l'histoire qu'il porte. Cette vision façonne son caractère : impliquée, méthodique et incapable de considérer le patrimoine comme une simple marchandise.\n\nAprès des études en finance et en gestion du patrimoine, elle met son intelligence au service de cabinets spécialisés dans l'authentification et le transfert d'œuvres de grande valeur. Derrière les contrats, elle découvre un marché où collectionneurs, politiciens, criminels et mécènes se disputent les mêmes trésors. C'est au cours de cette période qu'elle croise la route de la Légion des Cendres. Les membres de la Légion ne voient pas en elle une banquière. Ils voient une gardienne.\n\nOn lui confie d'abord la gestion de quelques acquisitions, puis les fonds destinés aux différents larcins. Son sang-froid, son sens du secret et sa capacité à faire circuler d'importantes sommes d'argent sans jamais attirer l'attention lui valent rapidement la confiance du Gardien. Quelques années plus tard, elle reçoit le titre de Trésorière de la Légion des Cendres.\n\nElle supervise les finances de l'organisation, organise les investissements, blanchit les revenus issus des opérations clandestines au travers d'activités légales et veille à ce que chaque membre dispose des ressources nécessaires sans jamais compromettre la discrétion de la confrérie. Mais son véritable pouvoir ne réside pas dans l'argent. Il réside dans la mémoire. Là où les autres manipulent des armes, elle manipule des informations capables de faire tomber des empires.\n\nInstallée depuis une dizaine d'années à Los Santos, elle apparaît comme une femme d'affaires élégante, quelque peu impulsive et irréprochable. Certains la pensent spécialisée dans le marché de l'art ou dans la gestion de fortunes privées. Peu imaginent qu'elle finance, dans l'ombre, les opérations de la Légion des Cendres.\n\nClémence n'a pas besoin d'imposer son autorité. Lorsqu'elle parle, chacun sait qu'elle possède déjà toutes les informations nécessaires. Pour elle, les richesses ne sont qu'un moyen."
+    },
+    {
+      "id": "elijah-torretto",
+      "nom": "Elijah Torretto",
+      "age": 21,
+      "origine": "Franco-Américain",
+      "grade": "Lieutenant",
+      "image": "assets/img/equipe/elijah.png",
+      "citation": "Le calme est une arme que peu de gens savent utiliser.",
+      "personnalite": "Calme, réfléchi et doté d'un excellent sens de l'analyse, Elijah privilégie toujours la stratégie et le dialogue avant l'affrontement. Ambitieux et méthodique, il inspire naturellement le respect par son charisme discret et sa loyauté envers ceux qui gagnent sa confiance.",
+      "description": "Né d'un père américain et d'une mère française, Elijah Torretto grandit entre deux cultures. Très tôt, il évolue dans un environnement où l'argent, les relations et l'influence ouvrent bien plus de portes que les diplômes ou les discours. Sans y être directement mêlé, il observe dès son adolescence des individus gravitant autour de réseaux d'affaires aussi prospères qu'opaques — un monde qui façonne durablement sa vision des rapports de force.\n\nÀ la suite d'un événement marquant qui bouleverse son entourage, Elijah comprend qu'il devra construire son propre avenir, seul. Il se tourne alors vers l'immobilier, un secteur où son sens des affaires et son aisance relationnelle lui permettent de bâtir peu à peu un réseau solide auprès d'entrepreneurs, d'investisseurs et de chefs d'entreprise.\n\nC'est par ce réseau, et par la discrétion avec laquelle il l'a construit, qu'Elijah attire l'attention de la Légion des Cendres. Son profil détonne : ni homme de main, ni stratège de l'ombre au sens classique, mais un négociateur patient capable d'ouvrir des portes que la force seule ne pourrait forcer. Au sein de la Légion, il incarne une autre forme de puissance — celle qui se construit dans les salons feutrés plutôt que dans la rue."
+    },
+    {
+      "id": "exemple3",
+      "nom": "EXEMPLE 3 - À modifier",
+      "age": 0,
+      "origine": "",
+      "grade": "Centurion",
+      "image": "assets/img/equipe/exemple3.png",
+      "citation": "",
+      "personnalite": "",
       "description": "Deuxième exemple de fiche. Duplique ce bloc pour chaque nouveau membre, en gardant un \"id\" unique (sans espace ni accent, ex: jean-dupont)."
     }
   ]

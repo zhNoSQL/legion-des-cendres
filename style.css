@@ -634,10 +634,49 @@ footer{
     margin-bottom:20px;
 }
 
+.fiche-infos{
+    color:#999;
+    font-size:.9rem;
+    letter-spacing:.5px;
+    margin-bottom:20px;
+}
+
+.fiche-citation{
+    color:#b89b5e;
+    font-style:italic;
+    font-size:1.05rem;
+    line-height:1.6;
+    border-left:2px solid #b89b5e;
+    padding-left:18px;
+    margin-bottom:30px;
+}
+
+.fiche-sub-title{
+    font-family:'Cinzel',serif;
+    color:#b89b5e;
+    font-size:1.2rem;
+    letter-spacing:.5px;
+    margin-bottom:14px;
+    margin-top:10px;
+}
+
+.fiche-personnalite{
+    line-height:1.8;
+    color:#d4d4d4;
+    margin-bottom:30px;
+}
+
 .fiche-description{
     line-height:1.8;
     color:#d4d4d4;
-    white-space:pre-line;
+}
+
+.fiche-description p{
+    margin-bottom:18px;
+}
+
+.fiche-description p:last-child{
+    margin-bottom:0;
 }
 
 @media(max-width:768px){
@@ -730,5 +769,13 @@ footer{
     .fiche-card img{
         width:200px;
         height:200px;
+    }
+
+    .fiche-citation{
+        text-align:left;
+    }
+
+    .fiche-sub-title{
+        text-align:center;
     }
 }
